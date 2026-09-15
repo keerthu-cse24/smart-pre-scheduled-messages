@@ -3,3 +3,4 @@ mysql-connector-python
 APScheduler
 python-dotenv
 requests
+gunicorn
