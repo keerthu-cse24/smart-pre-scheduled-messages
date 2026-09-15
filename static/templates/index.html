@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Smart Timer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Schedule your message for later</p>
+        <label>Contact Name</label>
+        <input type="text" id="contact_name" placeholder="Enter contact name" autocomplete="off">
+        <div id="contact_suggestions"></div>
+
+        <h1>WhatsApp Smart Timer</h1>
+        <button type="button" onclick="showContactForm()">+ Add Contact</button>
+        <label>WhatsApp Number</label>
+        <input type="tel" id="phone_number" placeholder="Enter WhatsApp number">
+        <label>Enter Message</label>
+        <textarea id="message" placeholder="Type your message here..."></textarea>
+        <label>Select Photo</label>
+        <input type="file" id="photo" accept="image/*">
+
+        <label>Select Video</label>
+        <input type="file" id="video" accept="video/*">
+
+        <label>Select Date</label>
+        <input type="date" id="date">
+
+        <label>Select Time</label>
+        <div class="time-row">
+    <input type="number" id="hour" min="1" max="12" placeholder="HH">
+    
+    <span>:</span>
+    
+    <input type="number" id="minute" min="0" max="59" placeholder="MM">
+
+    <select id="ampm">
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+    </select>
+</div>
+
+        <button onclick="scheduleMessage()">Schedule Message</button>
+        <button type="button" onclick="showHistory()">View Message History</button>
+
+        <div id="history"></div>
+
+        <p id="result"></p>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
