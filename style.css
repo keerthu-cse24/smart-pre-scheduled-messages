@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    color: #25D366;
+}
+
+p {
+    color: #555;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #128C7E;
+}
+.contact-list {
+    margin-top: 20px;
+}
+
+.contact-list h2 {
+    margin-bottom: 10px;
+}
+
+#contacts p {
+    padding: 12px;
+    margin: 6px 0;
+    border-radius: 8px;
+    background: #f2f2f2;
+    cursor: pointer;
+}
+#contacts p {
+    transition: 0.2s;
+    border: 1px solid #ddd;
+}
+
+#contacts p:hover {
+    transform: translateY(-2px);
+}
+/* Professional UI */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #d6d9e0;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+button {
+    background: #2563eb;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: translateY(0);
+}
+#result {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+#result.success {
+    background: #e8f7ee;
+    color: #16803c;
+    border: 1px solid #b7e4c7;
+}
+#contact_suggestions {
+    border: 1px solid #d6d9e0;
+    border-radius: 8px;
+    margin-top: 5px;
+    background: white;
+    overflow: hidden;
+}
+
+#contact_suggestions div {
+    padding: 10px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#contact_suggestions div:last-child {
+    border-bottom: none;
+}
+
+#contact_suggestions div:hover,
+#contact_suggestions div.selected {
+    background: #f1f5f9;
+}
+#history {
+    margin-top: 20px;
+}
+
+.history-card {
+    background: #f3f7ff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+.history-card p {
+    margin: 6px 0;
+}
+
+.history-contact {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.history-status {
+    font-weight: bold;
+    margin-top: 10px;
+    background: #f0fdf4;
+    color: #15803d;
+    padding: 5px 9px;
+    border-radius: 6px;
+    display: inline-block;
+}
